@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dumdum Social - Contacto</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+<body>
+  <header class="container bg-light">
+    <div>
+      <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo-dumdum.png" alt="Logo Dumdum Social" width="150px"">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="objetivos.html">Objetivos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="convocatorias.html">Convocatorias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="noticias.html">Noticias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="proyectos.html">Proyectos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section class="container">
+    <h1 class="text-center">Contacto</h1>
+    <form action="https://formsubmit.co/info@dumdumsocial.org" class="row g-3 mt-3" method="post">
+      <h2 class="text-center">Formulario de registro</h2>
+      <div class="col-6">
+        <label for="nom" class="form-label">Nombre: </label>
+        <input class="form-control" type="text" name="nom" id="nom" placeholder="Escribe tu nombre">
+      </div>
+      <div class="col-6">
+        <label for="cognoms" class="form-label">Apellidos: </label>
+        <input class="form-control" type="text" name="cognoms" id="cognoms" placeholder="Escribe tus apellidos">
+      </div>
+      <div class="col-12">
+        <label for="adress" class="form-label">Dirección: </label>
+        <input class="form-control" type="text" name="adress" id="adress" placeholder="Escribe tu dirección">
+      </div>
+      <div class="col-9">
+        <label for="email" class="form-label">Correo electrónico: </label>
+        <input class="form-control" type="email" name="email" id="email" placeholder="Escribe tu correo electrónico">
+      </div>
+      <div class="col-3">
+        <label for="telefon" class="form-label">Teléfono: </label>
+        <input class="form-control" type="text" name="telefon" id="telefon" placeholder="Escribe tu teléfono">
+      </div>
+      <div class="col-12">
+        <label for="comment" class="form-label mb-3">Comentario: </label>
+        <textarea class="form-control" name="comment" id="comment" placeholder="Escribe un comentario" style="height: 200px"></textarea>
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="check-box-input" type="checkbox" name="terms" id="terms">
+          <label class="form-check-label" for="terms">Acepto los <a href="terminos.html" target="_blank" rel="noopener noreferrer">términos del registro</a></label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">
+          Enviar
+        </button>
+      </div>
+    </form>
+  </section>
+  <footer class="bg-dark text-light container mt-3">
+    <div class="row">
+      <div class="col-12 text-center">Calle Andrade, 176A</div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        08020 - Barcelona
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4 text-center">Correo Electrónico: info@dumdumsocial.org</div>
+      <div class="col-4 text-center">&copy; Dumdum Social</div>
+      <div class="col-4 text-center">Teléfono: 681953712</div>
+
+    </div>
+
+  </footer>
+</body>
+</html>
